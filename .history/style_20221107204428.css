@@ -50,23 +50,11 @@ header {
     text-transform: uppercase;
 }
 
-.card ul {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    width: 270px;
-}
-
 .card ul li {
     display: flex;
     justify-content: space-between;
     align-items: center;
     Padding: 32px, 23px, 32px, 23px;
-}
-
-.card ul li+li {
-    padding-top: 24px;
-    border-top: 1px solid #323238;
 }
 
 .card ul li strong {

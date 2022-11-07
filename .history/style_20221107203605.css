@@ -34,7 +34,7 @@ header {
     display: flex;
     gap: 16px;
     justify-content: center;
-    align-items: center;
+
     padding: 8px 16px;
     border-radius: 6px;
     border: 1px solid #746615;
@@ -47,32 +47,4 @@ header {
 .card h2 span {
     color: #ffffff;
     font-size: 14px;
-    text-transform: uppercase;
-}
-
-.card ul {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    width: 270px;
-}
-
-.card ul li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    Padding: 32px, 23px, 32px, 23px;
-}
-
-.card ul li+li {
-    padding-top: 24px;
-    border-top: 1px solid #323238;
-}
-
-.card ul li strong {
-    color: #ffffff;
-    font-size: 36px;
-    font-weight: 900;
-    line-height: 125%;
-
 }
